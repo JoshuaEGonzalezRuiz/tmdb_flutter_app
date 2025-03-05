@@ -27,6 +27,7 @@ class MyApp extends ConsumerWidget {
     final themeMode = ref.watch(themeProvider);
 
     return MaterialApp.router(
+      title: 'TMDB Demo',
       // Configures the app's routing using the GoRouter package.
       routerConfig: router,
       // Disables the debug banner in the app.

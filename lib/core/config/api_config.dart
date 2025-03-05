@@ -13,7 +13,7 @@ class ApiConfig {
   ///
   /// This token is required for accessing TMDB's API and should be kept
   /// secure. Replace the empty string with your actual bearer token.
-  static const String bearerToken = "";
+  static const String bearerToken = "Bearer YOUR TOKEN";
 
   /// The base URL for fetching movie images from TMDB.
   ///

@@ -31,8 +31,8 @@ This application allows you to browse the most popular movies of the moment with
 
 ### 🔹 1. Clone the repository
 ```sh
-git clone https://github.com/JoshuaEGonzalezRuiz/flutter-movies-app.git
-cd flutter-movies-app
+git clone https://github.com/JoshuaEGonzalezRuiz/tmdb_flutter_app.git
+cd tmdb_flutter_app
 ```
 
 ### 🔹 2. Install dependencies
@@ -43,7 +43,7 @@ flutter pub get
 ### 🔹 3. Configuring the TMDB Bearer Token
 Access the `api_config.dart` file and add your TMDB token:
 ```sh
-static const String bearerToken = "YOUR TOKEN"
+static const String bearerToken = "Bearer YOUR TOKEN"
 ```
 
 ### 🔹 4. Run the application
